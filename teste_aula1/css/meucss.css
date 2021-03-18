@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+  font-family: fantasy;
+}
+#paragrafo-tags-estruturais,
+h2 {
+  background-color: yellow;
+  padding: 10px;
+}
+.paragrafos-verdes {
+  background-color: green;
+  color: white;
+}
+article p {
+  font-weight: bold;
+}
+article {
+  float: right;
+}
+a:hover {
+  font-size: 30px;
+}
+a:visited {
+  color: red;
+}
+a:active {
+  color: black;
+}
