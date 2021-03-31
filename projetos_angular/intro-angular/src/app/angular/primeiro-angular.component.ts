@@ -1,7 +1,7 @@
 import { Component} from "@angular/core";
 
 @Component ({
-    selector: "<primeiro-agular>",
+    selector: "primeiro-angular",
     template: `
     <p>Meu primeiro projeto {{framework}}</p>
     `
@@ -9,4 +9,3 @@ import { Component} from "@angular/core";
 export class PrimeiroAngularComponent {
     framework = "Angular";
 }
-
