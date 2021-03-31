@@ -1,7 +1,7 @@
 import { Component} from "@angular/core";
 
 @Component ({
-    selector: "primeiro-angular",
+    selector: "<primeiro-angular>",
     template: `
     <p>Meu primeiro projeto {{framework}}</p>
     `
