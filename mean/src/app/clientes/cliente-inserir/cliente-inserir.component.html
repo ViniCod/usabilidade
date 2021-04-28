@@ -1,9 +1,12 @@
-<h2> Inserção de Clientes </h2>
-
-<input type="text" placeholder="Nome" />
-<hr />
-<input type="text" placeholder="Telefone" />
-<hr />
-<input type="text" placeholder="Email" />
-<hr />
-<button (click)="onAdicionarCliente">Cadastrar</button>
+<mat-card>
+  <mat-form-field>
+    <input type="text" matInput placeholder="Nome" [(ngModel)]="nome" />
+  </mat-form-field>
+  <mat-form-field>
+    <input type="text" matInput placeholder="Telefone" [(ngModel)]="telefone" />
+  </mat-form-field>
+  <mat-form-field>
+    <input type="text" matInput placeholder="Email" [(ngModel)]="email" />
+  </mat-form-field>
+  <button color="primary" mat-raised-button (click)="onAdicionarCliente()">Cadastrar</button>
+</mat-card>
