@@ -15,6 +15,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { ClienteListaComponent } from './clientes/cliente-lista/cliente-lista.component';
 
+import { ClienteService } from './clientes/cliente.services';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +34,7 @@ import { ClienteListaComponent } from './clientes/cliente-lista/cliente-lista.co
     MatExpansionModule,
     NoopAnimationsModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ClienteService],
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
